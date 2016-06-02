@@ -1,0 +1,10 @@
+@import '../variables.css';
+
+.button {
+    color: inherit;
+    background: transparent;
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0 4.8rem;
+}

@@ -1,0 +1,65 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../../node_modules/normalize.css/normalize.css';
+
+/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */
+
+@import '../variables.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+/*
+ * Base styles
+ * ========================================================================== */
+
+html {
+    background: var(--light-gray);
+    color: var(--white);
+    font-size: 1em; /* ~16px; */
+    font-family: var(--font-family-base);
+    line-height: 1.375; /* ~22px */
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+
+.container {
+    font-weight: 400;
+    margin: 4rem auto;
+    min-height: 618px;
+    max-width: var(--max-content-width);
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+
+
+
+@media (min-width: 992px) {
+    img {
+        max-width: 83.3%;
+    }
+}
+
+

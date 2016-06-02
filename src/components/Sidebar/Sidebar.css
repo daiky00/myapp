@@ -1,0 +1,11 @@
+.sidebar {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        width: 45%;
+    }
+}

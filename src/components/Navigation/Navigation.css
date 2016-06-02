@@ -1,0 +1,25 @@
+@import '../variables.css';
+
+.root {
+    margin: 0;
+}
+
+.link {
+    font-size: 2rem;
+    text-decoration: none;
+    vertical-align: initial;
+    height: 2rem;
+    width: 2rem;
+    padding: 1rem;
+}
+
+.link:active {
+    background: var(--white);
+    color: transparent;
+    border-radius: 50%;
+}
+
+.link:hover {
+
+}
+
