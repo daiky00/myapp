@@ -23,3 +23,10 @@
         transform: none;
     }
 }
+
+
+@media (max-width: 992px) {
+    .root {
+        padding: var(--padding-wrapper-xs);
+    }
+}

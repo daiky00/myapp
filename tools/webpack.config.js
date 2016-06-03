@@ -191,11 +191,8 @@ const config = {
         // https://github.com/postcss/autoprefixer
         require('autoprefixer')({ browsers: AUTOPREFIXER_BROWSERS }),
       ],
-      sass: [
-        require('autoprefixer')({ browsers: AUTOPREFIXER_BROWSERS }),
-      ],
     };
-  },
+  }
 };
 
 //

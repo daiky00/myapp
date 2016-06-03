@@ -1,11 +1,13 @@
 .sidebar {
     box-sizing: border-box;
-    display: inline-block;
+    display: block;
     width: 100%;
+    text-align: center;
 }
 
 @media (min-width: 992px) {
     .sidebar {
+        display: inline-block;
         width: 45%;
     }
 }

@@ -32,6 +32,6 @@ export default {
     return render(
       <App context={context}>{component}</App>
     );
-  },
+  }
 
 };

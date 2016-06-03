@@ -13,10 +13,18 @@
 }
 .root {
 }
-
 .back {
     font-size: 4rem;
     position: relative;
     top: 1rem;
     left: -4rem;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .back {
+        left: 0;
+    }
 }

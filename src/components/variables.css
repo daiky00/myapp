@@ -25,6 +25,7 @@
     --max-content-width: 1000px;
     --padding-wrapper: 1rem 0 4rem 7.5rem;
     --border-radius: 1rem;
+    --padding-wrapper-xs: 0.5rem 2rem;
 
     /*
      * Media queries breakpoints

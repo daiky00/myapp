@@ -7,17 +7,9 @@
 .link {
     font-size: 2rem;
     text-decoration: none;
-    vertical-align: initial;
-    height: 2rem;
-    width: 2rem;
-    padding: 1rem;
+    margin: 1rem 3rem 1rem 0;
 }
 
-.link:active {
-    background: var(--white);
-    color: transparent;
-    border-radius: 50%;
-}
 
 .link:hover {
 
