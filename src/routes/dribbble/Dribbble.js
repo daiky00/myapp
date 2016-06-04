@@ -4,13 +4,14 @@ import s from './Dribbble.css';
 //Components
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Content from '../../components/Content'
 import H1 from '../../components/H1'
 import Paragraph from '../../components/Paragraph'
-import Content from '../../components/Content'
-import Sidebar from '../../components/Sidebar'
 import Button from '../../components/Button'
+import Sidebar from '../../components/Sidebar'
+import Img from '../../components/Img'
 //Assets
-import Img from './dribbble.gif'
+import Image from './dribbble.gif'
 
 function Dribbble() {
   return (
@@ -25,7 +26,7 @@ function Dribbble() {
         <Button>See more</Button>
       </Content>
       <Sidebar>
-        <img className={s.animated} src={Img} alt="React" />
+        <Img src={Image} />
       </Sidebar>
       <Footer />
     </div>

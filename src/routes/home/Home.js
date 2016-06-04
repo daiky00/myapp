@@ -9,6 +9,7 @@ import H1 from '../../components/H1'
 import Paragraph from '../../components/Paragraph'
 import Content from '../../components/Content'
 import Sidebar from '../../components/Sidebar'
+import Img from '../../components/Img'
 //Assets
 import Me from './me.png'
 
@@ -28,7 +29,7 @@ function Home() {
         </Paragraph>
       </Content>
       <Sidebar>
-        <img className={s.animated} src={Me} alt="React"/>
+        <Img src={Me} />
       </Sidebar>
       <Footer />
     </div>

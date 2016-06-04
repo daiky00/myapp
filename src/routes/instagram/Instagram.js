@@ -9,8 +9,9 @@ import Paragraph from '../../components/Paragraph'
 import Content from '../../components/Content'
 import Sidebar from '../../components/Sidebar'
 import Button from '../../components/Button'
+import Img from '../../components/Img'
 //Assets
-import Img from './instagram.gif'
+import Image from './instagram.gif'
 
 function Instagram() {
   return (
@@ -25,7 +26,7 @@ function Instagram() {
         <Button>See more</Button>
       </Content>
       <Sidebar>
-        <img className={s.animated} src={Img} alt="React"  />
+        <Img src={Image} alt="React"  />
       </Sidebar>
       <Footer />
     </div>

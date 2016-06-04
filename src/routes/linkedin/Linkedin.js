@@ -10,8 +10,9 @@ import Paragraph from '../../components/Paragraph'
 import Content from '../../components/Content'
 import Sidebar from '../../components/Sidebar'
 import Button from '../../components/Button'
+import Img from '../../components/Img'
 //Assets
-import Img from './linkedin.gif'
+import Image from './linkedin.gif'
 
 function Linkedin() {
   return (
@@ -26,7 +27,7 @@ function Linkedin() {
         <Button>See more</Button>
       </Content>
       <Sidebar>
-        <img className={s.animated} src={Img} alt="React"  />
+        <Img src={Image}  />
       </Sidebar>
       <Footer />
     </div>

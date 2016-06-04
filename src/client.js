@@ -92,24 +92,7 @@ function run() {
       render: render.bind(undefined, container, location.state),
     }).catch(err => console.error(err)); // eslint-disable-line no-console
   });
-
-  // Save the page scroll position into the current location's state
-  const supportPageOffset = window.pageXOffset !== undefined;
-  const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
-  const setPageOffset = () => {
-    currentLocation.state = currentLocation.state || Object.create(null);
-    if (supportPageOffset) {
-      currentLocation.state.scrollX = window.pageXOffset;
-      currentLocation.state.scrollY = window.pageYOffset;
-    } else {
-      currentLocation.state.scrollX = isCSS1Compat ?
-        document.documentElement.scrollLeft : document.body.scrollLeft;
-      currentLocation.state.scrollY = isCSS1Compat ?
-        document.documentElement.scrollTop : document.body.scrollTop;
-    }
-  };
-
-  addEventListener(window, 'scroll', setPageOffset);
+  
   addEventListener(window, 'pagehide', () => {
     removeEventListener(window, 'scroll', setPageOffset);
     removeHistoryListener();

@@ -8,3 +8,10 @@
     padding: 0.5rem 1rem;
     margin: 0.5rem 0 4.8rem;
 }
+
+@media (max-width: 992px) {
+    .button {
+        margin: 1rem 0;
+
+    }
+}

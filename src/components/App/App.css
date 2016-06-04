@@ -32,33 +32,10 @@ a {
     text-decoration: none;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 60%;
-}
-
-
 .container {
     font-weight: 400;
     margin: 4rem auto;
     min-height: 618px;
     max-width: var(--max-content-width);
 }
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-
-
-
-@media (min-width: 992px) {
-    img {
-        max-width: 83.3%;
-    }
-}
-
 

@@ -8,9 +8,7 @@ function Header() {
 
   return (
     <div className={s.root}>
-      <div className={s.container}>
         <IndexLink className={cx(s.back, 'fa fa fa-arrow-left')} to="/" />
-      </div>
     </div>
   );
 }
